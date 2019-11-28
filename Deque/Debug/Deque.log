@@ -1,0 +1,4 @@
+﻿  Deque.cpp
+C:\Repos\GITRepos\MyUniRepos\Deque\Deque.cpp(126,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+C:\Repos\GITRepos\MyUniRepos\Deque\Deque.cpp(129,19): warning C4305: 'argument': truncation from 'double' to 'float'
+  Deque.vcxproj -> C:\Repos\GITRepos\MyUniRepos\Deque\Debug\Deque.exe
