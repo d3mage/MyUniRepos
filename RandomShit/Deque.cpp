@@ -55,8 +55,7 @@ struct queue
   Queu* del_element;
   int ammountOfIterations = rand() % 9 + 1;
   void push()
-  {
-	  
+  {	  
 	  for (int i = 0; i < ammountOfIterations; i++)
 	  {
 		  new_element = new Queu;
