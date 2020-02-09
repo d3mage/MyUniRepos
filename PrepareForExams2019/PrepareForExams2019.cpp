@@ -31,28 +31,50 @@ void prepareExam(string name, int subject)
 		system("cls");
 		cout << "-------------------------------------" << endl;
 		cout << "| 1. Рандомне питання               |" << endl;
-		cout << "| 2. Питання за номером             |" << endl;
-		cout << "| 3. Повернутися                    |" << endl;
+		cout << "| 2. Змінити границі                |" << endl;
+		cout << "| 3. Питання за номером             |" << endl;
+		cout << "| 4. Повернутися                    |" << endl;
 		cout << "-------------------------------------" << endl;
 		int number; 
 		cin >> number;
 		cin.ignore();
 		if (number == 1)
 		{
+			int defaultValue; 
 			if (subject == 0)
 			{
-				cout << values[rand() % 55] << endl;
+				defaultValue = rand() % 55;
+				cout << values[defaultValue] << endl;
 			}
 			else
 			{
 				if (subject == 1)
 				{
-					cout << values[rand() % 90] << endl;
+					defaultValue = rand() % 90;
+					cout << values[defaultValue] << endl;
 				}
 			}				
 			_getch();
 		}
 		else if (number == 2)
+		{
+			int defaultValue;
+			cout << "Введіть рамки: ";
+			cin >> defaultValue; 
+			if (subject == 0)
+			{
+				cout << values[rand() % defaultValue] << endl;
+			}
+			else
+			{
+				if (subject == 1)
+				{
+					cout << values[rand() % defaultValue] << endl;
+				}
+			}
+			_getch();
+		}
+		else if (number == 3)
 		{
 			cout << "Номер питання?" << endl;
 			int question;
@@ -61,7 +83,7 @@ void prepareExam(string name, int subject)
 			cout << values[question-1]<<endl;
 			_getch();
 		}
-		else if (number == 3)
+		else if (number == 4)
 		{
 			back = true;
 		}

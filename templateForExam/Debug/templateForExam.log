@@ -1,0 +1,6 @@
+﻿  funtcions.cpp
+C:\Repos\GITRepos\MyUniRepos\templateForExam\funtcions.cpp(3,25): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Repos\GITRepos\MyUniRepos\templateForExam\funtcions.cpp(30,20): warning C4018: '<': signed/unsigned mismatch
+C:\Repos\GITRepos\MyUniRepos\templateForExam\funtcions.cpp(32,21): warning C4018: '<': signed/unsigned mismatch
+C:\Repos\GITRepos\MyUniRepos\templateForExam\funtcions.cpp(64,20): warning C4018: '<': signed/unsigned mismatch
+  templateForExam.vcxproj -> C:\Repos\GITRepos\MyUniRepos\templateForExam\Debug\templateForExam.exe
