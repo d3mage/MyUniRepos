@@ -1,0 +1,16 @@
+C:\Repos\FileIO\FileIO\bin\Debug\netcoreapp3.1\MainClass.exe
+C:\Repos\FileIO\FileIO\bin\Debug\netcoreapp3.1\MainClass.deps.json
+C:\Repos\FileIO\FileIO\bin\Debug\netcoreapp3.1\MainClass.runtimeconfig.json
+C:\Repos\FileIO\FileIO\bin\Debug\netcoreapp3.1\MainClass.runtimeconfig.dev.json
+C:\Repos\FileIO\FileIO\bin\Debug\netcoreapp3.1\MainClass.dll
+C:\Repos\FileIO\FileIO\bin\Debug\netcoreapp3.1\MainClass.pdb
+C:\Repos\FileIO\FileIO\obj\Debug\netcoreapp3.1\MainClass.csprojAssemblyReference.cache
+C:\Repos\FileIO\FileIO\obj\Debug\netcoreapp3.1\MainClass.AssemblyInfoInputs.cache
+C:\Repos\FileIO\FileIO\obj\Debug\netcoreapp3.1\MainClass.AssemblyInfo.cs
+C:\Repos\FileIO\FileIO\obj\Debug\netcoreapp3.1\MainClass.csproj.CoreCompileInputs.cache
+C:\Repos\FileIO\FileIO\obj\Debug\netcoreapp3.1\MainClass.dll
+C:\Repos\FileIO\FileIO\obj\Debug\netcoreapp3.1\MainClass.pdb
+C:\Repos\FileIO\FileIO\obj\Debug\netcoreapp3.1\MainClass.genruntimeconfig.cache
+C:\Repos\FileIO\FileIO\bin\Debug\netcoreapp3.1\ReadWrite.dll
+C:\Repos\FileIO\FileIO\bin\Debug\netcoreapp3.1\ReadWrite.pdb
+C:\Repos\FileIO\FileIO\obj\Debug\netcoreapp3.1\MainClass.csproj.CopyComplete

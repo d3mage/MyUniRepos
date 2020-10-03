@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "MainClass/1.0.0": {
+        "dependencies": {
+          "ReadWrite": "1.0.0"
+        },
+        "runtime": {
+          "MainClass.dll": {}
+        }
+      },
+      "ReadWrite/1.0.0": {
+        "runtime": {
+          "ReadWrite.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MainClass/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ReadWrite/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

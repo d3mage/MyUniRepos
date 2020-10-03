@@ -1,0 +1,9 @@
+C:\Repos\FileIO\ReadWrite\bin\Debug\netstandard2.0\ReadWrite.deps.json
+C:\Repos\FileIO\ReadWrite\bin\Debug\netstandard2.0\ReadWrite.dll
+C:\Repos\FileIO\ReadWrite\bin\Debug\netstandard2.0\ReadWrite.pdb
+C:\Repos\FileIO\ReadWrite\obj\Debug\netstandard2.0\ReadWrite.csprojAssemblyReference.cache
+C:\Repos\FileIO\ReadWrite\obj\Debug\netstandard2.0\ReadWrite.AssemblyInfoInputs.cache
+C:\Repos\FileIO\ReadWrite\obj\Debug\netstandard2.0\ReadWrite.AssemblyInfo.cs
+C:\Repos\FileIO\ReadWrite\obj\Debug\netstandard2.0\ReadWrite.csproj.CoreCompileInputs.cache
+C:\Repos\FileIO\ReadWrite\obj\Debug\netstandard2.0\ReadWrite.dll
+C:\Repos\FileIO\ReadWrite\obj\Debug\netstandard2.0\ReadWrite.pdb
