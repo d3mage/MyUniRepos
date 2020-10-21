@@ -1,0 +1,13 @@
+C:\Github\MyUniRepos\Layers and Serialization\Layers and Serialization\obj\Debug\netcoreapp3.1\Layers and Serialization.csprojAssemblyReference.cache
+C:\Github\MyUniRepos\Layers and Serialization\Layers and Serialization\obj\Debug\netcoreapp3.1\Layers and Serialization.AssemblyInfoInputs.cache
+C:\Github\MyUniRepos\Layers and Serialization\Layers and Serialization\obj\Debug\netcoreapp3.1\Layers and Serialization.AssemblyInfo.cs
+C:\Github\MyUniRepos\Layers and Serialization\Layers and Serialization\obj\Debug\netcoreapp3.1\Layers and Serialization.csproj.CoreCompileInputs.cache
+C:\Github\MyUniRepos\Layers and Serialization\Layers and Serialization\bin\Debug\netcoreapp3.1\Layers and Serialization.exe
+C:\Github\MyUniRepos\Layers and Serialization\Layers and Serialization\bin\Debug\netcoreapp3.1\Layers and Serialization.deps.json
+C:\Github\MyUniRepos\Layers and Serialization\Layers and Serialization\bin\Debug\netcoreapp3.1\Layers and Serialization.runtimeconfig.json
+C:\Github\MyUniRepos\Layers and Serialization\Layers and Serialization\bin\Debug\netcoreapp3.1\Layers and Serialization.runtimeconfig.dev.json
+C:\Github\MyUniRepos\Layers and Serialization\Layers and Serialization\bin\Debug\netcoreapp3.1\Layers and Serialization.dll
+C:\Github\MyUniRepos\Layers and Serialization\Layers and Serialization\bin\Debug\netcoreapp3.1\Layers and Serialization.pdb
+C:\Github\MyUniRepos\Layers and Serialization\Layers and Serialization\obj\Debug\netcoreapp3.1\Layers and Serialization.dll
+C:\Github\MyUniRepos\Layers and Serialization\Layers and Serialization\obj\Debug\netcoreapp3.1\Layers and Serialization.pdb
+C:\Github\MyUniRepos\Layers and Serialization\Layers and Serialization\obj\Debug\netcoreapp3.1\Layers and Serialization.genruntimeconfig.cache
