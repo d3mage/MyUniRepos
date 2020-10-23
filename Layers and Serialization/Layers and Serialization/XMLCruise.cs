@@ -1,11 +1,11 @@
 ﻿using System;
-using System.Runtime.Serialization;
-using System.Security.Permissions;
+using System.Collections.Generic;
+using System.Text;
 
 namespace Layers_and_Serialization
 {
     [Serializable]
-    class Cruise
+    public class XMLCruise
     {
         public int _cruiseNumber;
         public DateTime _date;
@@ -14,7 +14,12 @@ namespace Layers_and_Serialization
         public string _departureTime;
         public string _arrivalTime;
 
-        public Cruise(int cruiseNumber, DateTime date, string dispatch, string destination,
+        public XMLCruise()
+        {
+
+        }
+
+        public XMLCruise(int cruiseNumber, DateTime date, string dispatch, string destination,
             string departureTime, string arrivalTime)
         {
             _cruiseNumber = cruiseNumber;
@@ -27,7 +32,7 @@ namespace Layers_and_Serialization
 
         private string CruiseTime()
         {
-            return (DateTime.Parse(_departureTime) - DateTime.Parse(_arrivalTime)).Duration().ToString(); 
+            return (DateTime.Parse(_departureTime) - DateTime.Parse(_arrivalTime)).Duration().ToString();
         }
         private string TimeSinceCruise()
         {

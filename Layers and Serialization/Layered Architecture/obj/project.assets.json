@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Github\\MyUniRepos\\Layers and Serialization\\Layers and Serialization\\Layers and Serialization.csproj",
-      "projectName": "Layers and Serialization",
-      "projectPath": "C:\\Github\\MyUniRepos\\Layers and Serialization\\Layers and Serialization\\Layers and Serialization.csproj",
+      "projectUniqueName": "C:\\Github\\MyUniRepos\\Layers and Serialization\\Layered Architecture\\Layered Architecture.csproj",
+      "projectName": "Layered Architecture",
+      "projectPath": "C:\\Github\\MyUniRepos\\Layers and Serialization\\Layered Architecture\\Layered Architecture.csproj",
       "packagesPath": "C:\\Users\\d3mag\\.nuget\\packages\\",
-      "outputPath": "C:\\Github\\MyUniRepos\\Layers and Serialization\\Layers and Serialization\\obj\\",
+      "outputPath": "C:\\Github\\MyUniRepos\\Layers and Serialization\\Layered Architecture\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\d3mag\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<ArrayOfXMLCruise xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <XMLCruise>
+    <_cruiseNumber>2349</_cruiseNumber>
+    <_date>2020-04-26T08:19:00</_date>
+    <_dispatch>Kyiv</_dispatch>
+    <_destination>London</_destination>
+    <_departureTime>8:21:00</_departureTime>
+    <_arrivalTime>12:39:00</_arrivalTime>
+  </XMLCruise>
+  <XMLCruise>
+    <_cruiseNumber>5301</_cruiseNumber>
+    <_date>2020-06-27T19:02:00</_date>
+    <_dispatch>Kyiv</_dispatch>
+    <_destination>Lyon</_destination>
+    <_departureTime>19:29:00</_departureTime>
+    <_arrivalTime>1:08:00</_arrivalTime>
+  </XMLCruise>
+</ArrayOfXMLCruise>

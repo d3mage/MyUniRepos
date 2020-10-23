@@ -1,20 +1,27 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Runtime.Serialization;
-using System.Security.Permissions;
+using System.Text;
 
 namespace Layers_and_Serialization
 {
-    [Serializable]
-    class Cruise
+    [DataContract]
+    class JSONCruise 
     {
+        [DataMember]
         public int _cruiseNumber;
+        [DataMember]
         public DateTime _date;
+        [DataMember]
         public string _dispatch;
+        [DataMember]
         public string _destination;
+        [DataMember]
         public string _departureTime;
+        [DataMember]
         public string _arrivalTime;
 
-        public Cruise(int cruiseNumber, DateTime date, string dispatch, string destination,
+        public JSONCruise(int cruiseNumber, DateTime date, string dispatch, string destination,
             string departureTime, string arrivalTime)
         {
             _cruiseNumber = cruiseNumber;
@@ -27,7 +34,7 @@ namespace Layers_and_Serialization
 
         private string CruiseTime()
         {
-            return (DateTime.Parse(_departureTime) - DateTime.Parse(_arrivalTime)).Duration().ToString(); 
+            return (DateTime.Parse(_departureTime) - DateTime.Parse(_arrivalTime)).Duration().ToString();
         }
         private string TimeSinceCruise()
         {
