@@ -1,0 +1,4 @@
+C:\Github\MyUniRepos\Layers and Serialization II\Layers and Serialization II\obj\Debug\netcoreapp3.1\Layers and Serialization II.csprojAssemblyReference.cache
+C:\Github\MyUniRepos\Layers and Serialization II\Layers and Serialization II\obj\Debug\netcoreapp3.1\Layers and Serialization II.AssemblyInfoInputs.cache
+C:\Github\MyUniRepos\Layers and Serialization II\Layers and Serialization II\obj\Debug\netcoreapp3.1\Layers and Serialization II.AssemblyInfo.cs
+C:\Github\MyUniRepos\Layers and Serialization II\Layers and Serialization II\obj\Debug\netcoreapp3.1\Layers and Serialization II.csproj.CoreCompileInputs.cache
