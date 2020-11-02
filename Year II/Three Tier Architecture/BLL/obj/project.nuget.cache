@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "LyIUA49Q4+pQCdVs0AFB0aNgSTZcWeMm3PUcLIp0Hu4cQ2i5Z2tCUuZ0Ry6v/oDJKSPwOCK7uUa0MqopDstNQw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\d3mag\\Desktop\\Three Tier Architecture\\BLL\\BLL.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\d3mag\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\d3mag\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

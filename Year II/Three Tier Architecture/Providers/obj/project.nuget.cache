@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "xBmjHgULPzpDjus1n/37erFt+JhepDXMDCOrWoi42xSOdoBgya7eXUZ+aQarpqaXfDfu83WYkgVwd4BlGE8QjQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\d3mag\\Desktop\\Three Tier Architecture\\Providers\\Providers.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\d3mag\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\d3mag\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

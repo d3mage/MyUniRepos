@@ -1,4 +1,0 @@
-C:\Github\MyUniRepos\Layers and Serialization II\Menu\obj\Debug\netcoreapp3.1\Menu.csprojAssemblyReference.cache
-C:\Github\MyUniRepos\Layers and Serialization II\Menu\obj\Debug\netcoreapp3.1\Menu.AssemblyInfoInputs.cache
-C:\Github\MyUniRepos\Layers and Serialization II\Menu\obj\Debug\netcoreapp3.1\Menu.AssemblyInfo.cs
-C:\Github\MyUniRepos\Layers and Serialization II\Menu\obj\Debug\netcoreapp3.1\Menu.csproj.CoreCompileInputs.cache

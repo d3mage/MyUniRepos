@@ -1,0 +1,80 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Three Tier Architecture/1.0.0": {
+        "dependencies": {
+          "BLL": "1.0.0",
+          "DAL": "1.0.0",
+          "PL": "1.0.0",
+          "Providers": "1.0.0"
+        },
+        "runtime": {
+          "Three Tier Architecture.dll": {}
+        }
+      },
+      "BLL/1.0.0": {
+        "dependencies": {
+          "DAL": "1.0.0",
+          "Providers": "1.0.0"
+        },
+        "runtime": {
+          "BLL.dll": {}
+        }
+      },
+      "DAL/1.0.0": {
+        "dependencies": {
+          "Providers": "1.0.0"
+        },
+        "runtime": {
+          "DAL.dll": {}
+        }
+      },
+      "PL/1.0.0": {
+        "dependencies": {
+          "BLL": "1.0.0",
+          "Providers": "1.0.0"
+        },
+        "runtime": {
+          "PL.dll": {}
+        }
+      },
+      "Providers/1.0.0": {
+        "runtime": {
+          "Providers.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Three Tier Architecture/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BLL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DAL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Providers/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
