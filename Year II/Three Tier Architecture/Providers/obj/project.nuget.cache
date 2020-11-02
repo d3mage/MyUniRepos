@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xBmjHgULPzpDjus1n/37erFt+JhepDXMDCOrWoi42xSOdoBgya7eXUZ+aQarpqaXfDfu83WYkgVwd4BlGE8QjQ==",
+  "dgSpecHash": "uSw2tpAJokFsEOLV0eNlptPDIP+C4+IwDBRTN/s6bG54IDekTa2Kh8J+JfB4swbs+eugFtHi+4t/J5lU4Q7JFg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\d3mag\\Desktop\\Three Tier Architecture\\Providers\\Providers.csproj",
+  "projectFilePath": "C:\\Github\\MyUniRepos\\Year II\\Three Tier Architecture\\Providers\\Providers.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\d3mag\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\d3mag\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"

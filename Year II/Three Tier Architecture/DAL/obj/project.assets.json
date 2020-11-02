@@ -201,11 +201,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\d3mag\\Desktop\\Three Tier Architecture\\DAL\\DAL.csproj",
+      "projectUniqueName": "C:\\Github\\MyUniRepos\\Year II\\Three Tier Architecture\\DAL\\DAL.csproj",
       "projectName": "DAL",
-      "projectPath": "C:\\Users\\d3mag\\Desktop\\Three Tier Architecture\\DAL\\DAL.csproj",
+      "projectPath": "C:\\Github\\MyUniRepos\\Year II\\Three Tier Architecture\\DAL\\DAL.csproj",
       "packagesPath": "C:\\Users\\d3mag\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\d3mag\\Desktop\\Three Tier Architecture\\DAL\\obj\\",
+      "outputPath": "C:\\Github\\MyUniRepos\\Year II\\Three Tier Architecture\\DAL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\d3mag\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -221,8 +221,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "C:\\Users\\d3mag\\Desktop\\Three Tier Architecture\\Providers\\Providers.csproj": {
-              "projectPath": "C:\\Users\\d3mag\\Desktop\\Three Tier Architecture\\Providers\\Providers.csproj"
+            "C:\\Github\\MyUniRepos\\Year II\\Three Tier Architecture\\Providers\\Providers.csproj": {
+              "projectPath": "C:\\Github\\MyUniRepos\\Year II\\Three Tier Architecture\\Providers\\Providers.csproj"
             }
           }
         }

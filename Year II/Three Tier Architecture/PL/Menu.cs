@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Data;
+using System.Runtime.Serialization;
 using BLL;
 using DAL; 
 
@@ -6,19 +8,35 @@ namespace PL
 {
     public class Menu
     {
-        private IDataReadWrite<Student> _dataReadWrite;
-        private FileConfigurationService<Student> configurationService;
+        private RegexService regexService; 
         private FileNameGenerator nameGenerator;
+
+        private FileConfigurationService<Student> studentConfigurationService;
+        private FileConfigurationService<Doctor> doctorConfigurationService;
+        private FileConfigurationService<Mechanic> mechanicConfigurationService; 
+
+        private IDataReadWrite<Student> studentReadWrite;
+        private IDataReadWrite<Doctor> doctorReadWrite; 
+        private IDataReadWrite<Mechanic> mechanicReadWrite; 
+
         private string name { get; set; }
         private string extension { get; set; }
         private string mainMenu;
         public Menu()
         {
-            configurationService = new FileConfigurationService<Student>();
+            regexService = new RegexService(); 
             nameGenerator = new FileNameGenerator();
+
+            studentConfigurationService = new FileConfigurationService<Student>();
+            doctorConfigurationService = new FileConfigurationService<Doctor>();
+            mechanicConfigurationService = new FileConfigurationService<Mechanic>(); 
+
             name = "data";
             extension = "txt";
-            _dataReadWrite = configurationService.ConfigureFileService(name, extension, nameGenerator);
+            studentReadWrite = studentConfigurationService.ConfigureFileService(name, extension, "student", nameGenerator);
+            doctorReadWrite = doctorConfigurationService.ConfigureFileService(name, extension, "doctor", nameGenerator);
+            mechanicReadWrite = mechanicConfigurationService.ConfigureFileService(name, extension, "mechanic", nameGenerator); 
+
             PrintMenu();
         }
 
@@ -33,24 +51,59 @@ namespace PL
                 if (func.Equals("add", StringComparison.OrdinalIgnoreCase))
                 {
                     Console.Clear();
-                    if(AskUser("new file name?").Equals("yes", StringComparison.OrdinalIgnoreCase))
+                    Configure();
+                    string decision = AskUser("Select enity: student, doctor, mechanic", "[A-Za-z]+");
+                    if (decision.Equals("student", StringComparison.OrdinalIgnoreCase))
                     {
-                        name = AskUser("name");
-                        extension = AskUser("extension");
-                        configurationService.ConfigureFileService(name, extension, nameGenerator);
+                        EntityService<Student>.AddStudent(studentReadWrite, GetDataArray("student"));
                     }
-                    EntityService<Student>.Add(_dataReadWrite);
-
+                    else if(decision.Equals("doctor", StringComparison.OrdinalIgnoreCase))
+                    {
+                        EntityService<Doctor>.AddDoctor(doctorReadWrite, GetDataArray("doctor"));
+                    }
+                    else if(decision.Equals("mechanic", StringComparison.OrdinalIgnoreCase))
+                    {
+                        EntityService<Mechanic>.AddMechanic(mechanicReadWrite, GetDataArray("mechanic"));
+                    }
                 }
                 else if (func.Equals("remove", StringComparison.OrdinalIgnoreCase))
                 {
                     Console.Clear();
-
+                    string decision = AskUser("Select enity: student, doctor, mechanic", "[A-Za-z]+");
+                    if (decision.Equals("student", StringComparison.OrdinalIgnoreCase))
+                    {
+                        EntityService<Student>.DeleteStudentByName(studentReadWrite, AskUser("Enter name", @"[A-Z]?\w+"), AskUser("Enter name", @"[A-Z]?\w+"));
+                    }
+                    else if (decision.Equals("doctor", StringComparison.OrdinalIgnoreCase))
+                    {
+                        EntityService<Doctor>.DeleteDoctorByName(doctorReadWrite, AskUser("Enter name", @"[A-Z]?\w+"), AskUser("Enter name", @"[A-Z]?\w+"));
+                    }
+                    else if (decision.Equals("mechanic", StringComparison.OrdinalIgnoreCase))
+                    {
+                        EntityService<Mechanic>.DeleteMechanicByName(mechanicReadWrite, AskUser("Enter name", @"[A-Z]?\w+"), AskUser("Enter name", @"[A-Z]?\w+"));
+                    }
                 }
-                else if (func.Equals("see", StringComparison.OrdinalIgnoreCase))
+                else if (func.Equals("print", StringComparison.OrdinalIgnoreCase))
                 {
                     Console.Clear();
+                    string decision = AskUser("Select enity: student, doctor, mechanic", "[A-Za-z]+");
+                    if (decision.Equals("student", StringComparison.OrdinalIgnoreCase))
+                    {
+                        EntityService<Student>.PrintStudent(studentReadWrite); 
+                    }
+                    else if (decision.Equals("doctor", StringComparison.OrdinalIgnoreCase))
+                    {
+                        EntityService<Doctor>.PrintDoctor(doctorReadWrite);
+                    }
+                    else if (decision.Equals("mechanic", StringComparison.OrdinalIgnoreCase))
+                    {
+                        EntityService<Mechanic>.PrintMechanic(mechanicReadWrite); 
+                    }
 
+                }
+                else if (func.Equals("task", StringComparison.OrdinalIgnoreCase))
+                {
+                    EntityService<Student>.SearchTask(studentReadWrite);
                 }
                 else if (func.Equals("exit", StringComparison.OrdinalIgnoreCase))
                 {
@@ -69,12 +122,72 @@ namespace PL
         {
             mainMenu = $"Current file name: {name}.{extension}\n" +
             "What do you want to do?\n" +
-            "Add entity\nRemove entity\n";
+            "Add entity\nPrint available entities\nRemove entity\nTask\nExit";
         }
-        private string AskUser(string ToDo)
+        private string AskUser(string ToDo, string regex)
         {
-            Console.WriteLine($"Select {ToDo}");
-            return Console.ReadLine();
+            Console.WriteLine($"{ToDo}");
+            string decision = Console.ReadLine();
+            bool finished = regexService.isCorrectRegex(decision, regex);
+            while (finished != true)
+            {
+                Console.WriteLine("Enter legit value");
+                decision = Console.ReadLine(); 
+            }
+            return decision; 
+        }
+        private void Configure()
+        {
+            if (AskUser("Select new file name?", @"[A-Za-z]{1,3}").Equals("yes", StringComparison.OrdinalIgnoreCase))
+            {
+                name = AskUser("Enter name", @"[A-Z]?\w+");
+                extension = AskUser("Enter extension", @"[A-Za-z]{3}");
+                studentConfigurationService.ConfigureFileService(name, extension, "student", nameGenerator);
+                doctorConfigurationService.ConfigureFileService(name, extension, "doctor", nameGenerator);
+                mechanicConfigurationService.ConfigureFileService(name, extension, "mechanic", nameGenerator); 
+            }
+        }
+        private string[] GetDataArray(string entity)
+        {
+            switch (entity)
+            {
+                case "student":
+                    return GetStudentArray();
+                case "doctor":
+                    return GetDoctorArray();
+                default:
+                    return GetMechanicArray(); 
+            }
+        }
+        private string[] GetStudentArray()
+        {
+            string[] dataString = new string[7];
+            dataString[0] = AskUser("Enter name: ", @"^[A-Z]?[a-z]+$");
+            dataString[1] = AskUser("Enter surname: ", @"^[A-Z]?[a-z]+$");
+            dataString[2] = AskUser("Enter course: ", @"[1-5]");
+            dataString[3] = AskUser("Enter student ID: ", @"[A-Z]{2}\d{4,}");
+            dataString[4] = AskUser("Enter sex: ", @"^[A-Za-z]{4,6}$");
+            dataString[5] = AskUser("Enter GPA: ", @"\d?\d.\d");
+            dataString[6] = AskUser("Enter credit book ID:", @"\d{6}");
+            return dataString; 
+        }
+        private string[] GetDoctorArray()
+        {
+            string[] dataString = new string[4];
+            dataString[0] = AskUser("Enter name: ", @"^[A-Z]?[a-z]+$");
+            dataString[1] = AskUser("Enter surname: ", @"^[A-Z]?[a-z]+$");
+            dataString[2] = AskUser("Enter medicine field: ", @"[A-Za-z]{3-10}");
+            dataString[3] = AskUser("Enter years of experience: ", @"\d?\d");
+            return dataString;
+        } 
+        private string[] GetMechanicArray()
+        {
+            string[] dataString = new string[4];
+            dataString[0] = AskUser("Enter name: ", @"^[A-Z]?[a-z]+$");
+            dataString[1] = AskUser("Enter surname: ", @"^[A-Z]?[a-z]+$");
+            dataString[2] = AskUser("Enter type of transport: ", @"[A-Za-z]{3, 15}");
+            dataString[3] = AskUser("Enter education: ", @"[A-Za-z]{3, 8}");
+            return dataString;
         }
         
     }

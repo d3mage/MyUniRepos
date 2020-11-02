@@ -6,9 +6,9 @@ namespace BLL
 {
    public class FileNameGenerator
     {
-        public string GenerateFileName(string name, string extension)
+        public string GenerateFileName(string name, string extension, string entity)
         {
-            return $"{name}.{extension}";
+            return $"{name}{entity}.{extension}";
         }
     }
 }

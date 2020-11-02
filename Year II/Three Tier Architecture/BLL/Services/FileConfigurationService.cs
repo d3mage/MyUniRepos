@@ -5,9 +5,9 @@ namespace BLL
 {
     public class FileConfigurationService<T>
     {
-        public IDataReadWrite<T> ConfigureFileService(string name, string extension, FileNameGenerator nameGenerator)
+        public IDataReadWrite<T> ConfigureFileService(string name, string extension, string entity, FileNameGenerator nameGenerator)
         {
-            string connectionString = nameGenerator.GenerateFileName(name, extension);
+            string connectionString = nameGenerator.GenerateFileName(name, extension, entity);
             IDataContext<T> tempContext = new EntityContext<T>(connectionString);
             tempContext.DataProvider = ExtensionSelection(extension);
             IDataReadWrite<T> tempReadWrite = new ReadWriteService<T>(tempContext);

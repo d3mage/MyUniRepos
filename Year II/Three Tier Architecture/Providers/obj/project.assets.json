@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\d3mag\\Desktop\\Three Tier Architecture\\Providers\\Providers.csproj",
+      "projectUniqueName": "C:\\Github\\MyUniRepos\\Year II\\Three Tier Architecture\\Providers\\Providers.csproj",
       "projectName": "Providers",
-      "projectPath": "C:\\Users\\d3mag\\Desktop\\Three Tier Architecture\\Providers\\Providers.csproj",
+      "projectPath": "C:\\Github\\MyUniRepos\\Year II\\Three Tier Architecture\\Providers\\Providers.csproj",
       "packagesPath": "C:\\Users\\d3mag\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\d3mag\\Desktop\\Three Tier Architecture\\Providers\\obj\\",
+      "outputPath": "C:\\Github\\MyUniRepos\\Year II\\Three Tier Architecture\\Providers\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\d3mag\\AppData\\Roaming\\NuGet\\NuGet.Config",

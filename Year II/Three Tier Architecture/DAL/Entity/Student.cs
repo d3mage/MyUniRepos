@@ -5,7 +5,6 @@ using System.Xml.Serialization;
 
 namespace DAL
 {
-    [XmlInclude(typeof(Student))]
     [Serializable]
     public class Student : Entity
     {

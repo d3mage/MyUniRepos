@@ -11,16 +11,9 @@ namespace DAL
     {
         public string _firstName, _secondName;
 
-        //public IComposeStory story;
-
         public Entity()
         {
 
         }
-
-        //public void SetStory(IComposeStory cs)
-        //{
-        //    story = cs;
-        //}
     }
 }

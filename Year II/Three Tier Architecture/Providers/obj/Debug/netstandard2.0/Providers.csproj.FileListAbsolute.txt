@@ -16,3 +16,12 @@ C:\Users\d3mag\Desktop\Three Tier Architecture\Providers\obj\Debug\netstandard2.
 C:\Users\d3mag\Desktop\Three Tier Architecture\Providers\obj\Debug\netstandard2.0\Providers.csproj.CoreCompileInputs.cache
 C:\Users\d3mag\Desktop\Three Tier Architecture\Providers\obj\Debug\netstandard2.0\Providers.dll
 C:\Users\d3mag\Desktop\Three Tier Architecture\Providers\obj\Debug\netstandard2.0\Providers.pdb
+C:\Github\MyUniRepos\Year II\Three Tier Architecture\Providers\bin\Debug\netstandard2.0\Providers.deps.json
+C:\Github\MyUniRepos\Year II\Three Tier Architecture\Providers\bin\Debug\netstandard2.0\Providers.dll
+C:\Github\MyUniRepos\Year II\Three Tier Architecture\Providers\bin\Debug\netstandard2.0\Providers.pdb
+C:\Github\MyUniRepos\Year II\Three Tier Architecture\Providers\obj\Debug\netstandard2.0\Providers.csprojAssemblyReference.cache
+C:\Github\MyUniRepos\Year II\Three Tier Architecture\Providers\obj\Debug\netstandard2.0\Providers.AssemblyInfoInputs.cache
+C:\Github\MyUniRepos\Year II\Three Tier Architecture\Providers\obj\Debug\netstandard2.0\Providers.AssemblyInfo.cs
+C:\Github\MyUniRepos\Year II\Three Tier Architecture\Providers\obj\Debug\netstandard2.0\Providers.csproj.CoreCompileInputs.cache
+C:\Github\MyUniRepos\Year II\Three Tier Architecture\Providers\obj\Debug\netstandard2.0\Providers.dll
+C:\Github\MyUniRepos\Year II\Three Tier Architecture\Providers\obj\Debug\netstandard2.0\Providers.pdb

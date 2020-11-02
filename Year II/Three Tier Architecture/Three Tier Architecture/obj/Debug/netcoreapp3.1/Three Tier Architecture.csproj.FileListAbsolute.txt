@@ -42,3 +42,25 @@ C:\Users\d3mag\Desktop\Three Tier Architecture\Three Tier Architecture\obj\Debug
 C:\Users\d3mag\Desktop\Three Tier Architecture\Three Tier Architecture\obj\Debug\netcoreapp3.1\Three Tier Architecture.dll
 C:\Users\d3mag\Desktop\Three Tier Architecture\Three Tier Architecture\obj\Debug\netcoreapp3.1\Three Tier Architecture.pdb
 C:\Users\d3mag\Desktop\Three Tier Architecture\Three Tier Architecture\obj\Debug\netcoreapp3.1\Three Tier Architecture.genruntimeconfig.cache
+C:\Github\MyUniRepos\Year II\Three Tier Architecture\Three Tier Architecture\bin\Debug\netcoreapp3.1\Three Tier Architecture.exe
+C:\Github\MyUniRepos\Year II\Three Tier Architecture\Three Tier Architecture\bin\Debug\netcoreapp3.1\Three Tier Architecture.deps.json
+C:\Github\MyUniRepos\Year II\Three Tier Architecture\Three Tier Architecture\bin\Debug\netcoreapp3.1\Three Tier Architecture.runtimeconfig.json
+C:\Github\MyUniRepos\Year II\Three Tier Architecture\Three Tier Architecture\bin\Debug\netcoreapp3.1\Three Tier Architecture.runtimeconfig.dev.json
+C:\Github\MyUniRepos\Year II\Three Tier Architecture\Three Tier Architecture\bin\Debug\netcoreapp3.1\Three Tier Architecture.dll
+C:\Github\MyUniRepos\Year II\Three Tier Architecture\Three Tier Architecture\bin\Debug\netcoreapp3.1\Three Tier Architecture.pdb
+C:\Github\MyUniRepos\Year II\Three Tier Architecture\Three Tier Architecture\bin\Debug\netcoreapp3.1\BLL.dll
+C:\Github\MyUniRepos\Year II\Three Tier Architecture\Three Tier Architecture\bin\Debug\netcoreapp3.1\DAL.dll
+C:\Github\MyUniRepos\Year II\Three Tier Architecture\Three Tier Architecture\bin\Debug\netcoreapp3.1\PL.dll
+C:\Github\MyUniRepos\Year II\Three Tier Architecture\Three Tier Architecture\bin\Debug\netcoreapp3.1\Providers.dll
+C:\Github\MyUniRepos\Year II\Three Tier Architecture\Three Tier Architecture\bin\Debug\netcoreapp3.1\BLL.pdb
+C:\Github\MyUniRepos\Year II\Three Tier Architecture\Three Tier Architecture\bin\Debug\netcoreapp3.1\DAL.pdb
+C:\Github\MyUniRepos\Year II\Three Tier Architecture\Three Tier Architecture\bin\Debug\netcoreapp3.1\PL.pdb
+C:\Github\MyUniRepos\Year II\Three Tier Architecture\Three Tier Architecture\bin\Debug\netcoreapp3.1\Providers.pdb
+C:\Github\MyUniRepos\Year II\Three Tier Architecture\Three Tier Architecture\obj\Debug\netcoreapp3.1\Three Tier Architecture.csprojAssemblyReference.cache
+C:\Github\MyUniRepos\Year II\Three Tier Architecture\Three Tier Architecture\obj\Debug\netcoreapp3.1\Three Tier Architecture.AssemblyInfoInputs.cache
+C:\Github\MyUniRepos\Year II\Three Tier Architecture\Three Tier Architecture\obj\Debug\netcoreapp3.1\Three Tier Architecture.AssemblyInfo.cs
+C:\Github\MyUniRepos\Year II\Three Tier Architecture\Three Tier Architecture\obj\Debug\netcoreapp3.1\Three Tier Architecture.csproj.CoreCompileInputs.cache
+C:\Github\MyUniRepos\Year II\Three Tier Architecture\Three Tier Architecture\obj\Debug\netcoreapp3.1\Three Tier Architecture.csproj.CopyComplete
+C:\Github\MyUniRepos\Year II\Three Tier Architecture\Three Tier Architecture\obj\Debug\netcoreapp3.1\Three Tier Architecture.dll
+C:\Github\MyUniRepos\Year II\Three Tier Architecture\Three Tier Architecture\obj\Debug\netcoreapp3.1\Three Tier Architecture.pdb
+C:\Github\MyUniRepos\Year II\Three Tier Architecture\Three Tier Architecture\obj\Debug\netcoreapp3.1\Three Tier Architecture.genruntimeconfig.cache

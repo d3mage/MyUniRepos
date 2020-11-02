@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Xml.Serialization;
 
 namespace DAL
 {
@@ -9,7 +10,7 @@ namespace DAL
     {
         private string _typeOfTransport;
         private string _education;
-        [NonSerialized] public IComposeStory story;
+        [XmlIgnore] public IComposeStory story;
         public void SetStory(IComposeStory cs)
         {
             story = cs;
