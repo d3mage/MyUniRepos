@@ -1,0 +1,13 @@
+C:\Github\MyUniRepos\Delegates\Delegates\obj\Debug\netcoreapp3.1\Delegates.csprojAssemblyReference.cache
+C:\Github\MyUniRepos\Delegates\Delegates\obj\Debug\netcoreapp3.1\Delegates.AssemblyInfoInputs.cache
+C:\Github\MyUniRepos\Delegates\Delegates\obj\Debug\netcoreapp3.1\Delegates.AssemblyInfo.cs
+C:\Github\MyUniRepos\Delegates\Delegates\obj\Debug\netcoreapp3.1\Delegates.csproj.CoreCompileInputs.cache
+C:\Github\MyUniRepos\Delegates\Delegates\bin\Debug\netcoreapp3.1\Delegates.exe
+C:\Github\MyUniRepos\Delegates\Delegates\bin\Debug\netcoreapp3.1\Delegates.deps.json
+C:\Github\MyUniRepos\Delegates\Delegates\bin\Debug\netcoreapp3.1\Delegates.runtimeconfig.json
+C:\Github\MyUniRepos\Delegates\Delegates\bin\Debug\netcoreapp3.1\Delegates.runtimeconfig.dev.json
+C:\Github\MyUniRepos\Delegates\Delegates\bin\Debug\netcoreapp3.1\Delegates.dll
+C:\Github\MyUniRepos\Delegates\Delegates\bin\Debug\netcoreapp3.1\Delegates.pdb
+C:\Github\MyUniRepos\Delegates\Delegates\obj\Debug\netcoreapp3.1\Delegates.dll
+C:\Github\MyUniRepos\Delegates\Delegates\obj\Debug\netcoreapp3.1\Delegates.pdb
+C:\Github\MyUniRepos\Delegates\Delegates\obj\Debug\netcoreapp3.1\Delegates.genruntimeconfig.cache
