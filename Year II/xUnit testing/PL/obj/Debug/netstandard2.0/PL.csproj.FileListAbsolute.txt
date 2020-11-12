@@ -1,0 +1,64 @@
+C:\Github\MyUniRepos\Three Tier Architecture\PL\obj\Debug\netstandard2.0\PL.csprojAssemblyReference.cache
+C:\Github\MyUniRepos\Three Tier Architecture\PL\obj\Debug\netstandard2.0\PL.AssemblyInfoInputs.cache
+C:\Github\MyUniRepos\Three Tier Architecture\PL\obj\Debug\netstandard2.0\PL.AssemblyInfo.cs
+C:\Github\MyUniRepos\Three Tier Architecture\PL\obj\Debug\netstandard2.0\PL.csproj.CoreCompileInputs.cache
+C:\Github\MyUniRepos\Three Tier Architecture\PL\bin\Debug\netstandard2.0\PL.deps.json
+C:\Github\MyUniRepos\Three Tier Architecture\PL\bin\Debug\netstandard2.0\PL.dll
+C:\Github\MyUniRepos\Three Tier Architecture\PL\bin\Debug\netstandard2.0\PL.pdb
+C:\Github\MyUniRepos\Three Tier Architecture\PL\bin\Debug\netstandard2.0\BLL.dll
+C:\Github\MyUniRepos\Three Tier Architecture\PL\bin\Debug\netstandard2.0\DAL.dll
+C:\Github\MyUniRepos\Three Tier Architecture\PL\bin\Debug\netstandard2.0\Providers.dll
+C:\Github\MyUniRepos\Three Tier Architecture\PL\bin\Debug\netstandard2.0\BLL.pdb
+C:\Github\MyUniRepos\Three Tier Architecture\PL\bin\Debug\netstandard2.0\Providers.pdb
+C:\Github\MyUniRepos\Three Tier Architecture\PL\bin\Debug\netstandard2.0\DAL.pdb
+C:\Github\MyUniRepos\Three Tier Architecture\PL\obj\Debug\netstandard2.0\PL.csproj.CopyComplete
+C:\Github\MyUniRepos\Three Tier Architecture\PL\obj\Debug\netstandard2.0\PL.dll
+C:\Github\MyUniRepos\Three Tier Architecture\PL\obj\Debug\netstandard2.0\PL.pdb
+C:\Users\d3mag\Desktop\Three Tier Architecture\PL\obj\Debug\netstandard2.0\PL.csprojAssemblyReference.cache
+C:\Users\d3mag\Desktop\Three Tier Architecture\PL\obj\Debug\netstandard2.0\PL.AssemblyInfoInputs.cache
+C:\Users\d3mag\Desktop\Three Tier Architecture\PL\obj\Debug\netstandard2.0\PL.AssemblyInfo.cs
+C:\Users\d3mag\Desktop\Three Tier Architecture\PL\obj\Debug\netstandard2.0\PL.csproj.CoreCompileInputs.cache
+C:\Users\d3mag\Desktop\Three Tier Architecture\PL\obj\Debug\netstandard2.0\PL.dll
+C:\Users\d3mag\Desktop\Three Tier Architecture\PL\obj\Debug\netstandard2.0\PL.pdb
+C:\Users\d3mag\Desktop\Three Tier Architecture\PL\bin\Debug\netstandard2.0\PL.deps.json
+C:\Users\d3mag\Desktop\Three Tier Architecture\PL\bin\Debug\netstandard2.0\PL.dll
+C:\Users\d3mag\Desktop\Three Tier Architecture\PL\bin\Debug\netstandard2.0\PL.pdb
+C:\Users\d3mag\Desktop\Three Tier Architecture\PL\bin\Debug\netstandard2.0\BLL.dll
+C:\Users\d3mag\Desktop\Three Tier Architecture\PL\bin\Debug\netstandard2.0\DAL.dll
+C:\Users\d3mag\Desktop\Three Tier Architecture\PL\bin\Debug\netstandard2.0\Providers.dll
+C:\Users\d3mag\Desktop\Three Tier Architecture\PL\bin\Debug\netstandard2.0\BLL.pdb
+C:\Users\d3mag\Desktop\Three Tier Architecture\PL\bin\Debug\netstandard2.0\Providers.pdb
+C:\Users\d3mag\Desktop\Three Tier Architecture\PL\bin\Debug\netstandard2.0\DAL.pdb
+C:\Users\d3mag\Desktop\Three Tier Architecture\PL\obj\Debug\netstandard2.0\PL.csproj.CopyComplete
+C:\Github\MyUniRepos\Year II\Three Tier Architecture\PL\bin\Debug\netstandard2.0\PL.deps.json
+C:\Github\MyUniRepos\Year II\Three Tier Architecture\PL\bin\Debug\netstandard2.0\PL.dll
+C:\Github\MyUniRepos\Year II\Three Tier Architecture\PL\bin\Debug\netstandard2.0\PL.pdb
+C:\Github\MyUniRepos\Year II\Three Tier Architecture\PL\bin\Debug\netstandard2.0\BLL.dll
+C:\Github\MyUniRepos\Year II\Three Tier Architecture\PL\bin\Debug\netstandard2.0\DAL.dll
+C:\Github\MyUniRepos\Year II\Three Tier Architecture\PL\bin\Debug\netstandard2.0\Providers.dll
+C:\Github\MyUniRepos\Year II\Three Tier Architecture\PL\bin\Debug\netstandard2.0\BLL.pdb
+C:\Github\MyUniRepos\Year II\Three Tier Architecture\PL\bin\Debug\netstandard2.0\Providers.pdb
+C:\Github\MyUniRepos\Year II\Three Tier Architecture\PL\bin\Debug\netstandard2.0\DAL.pdb
+C:\Github\MyUniRepos\Year II\Three Tier Architecture\PL\obj\Debug\netstandard2.0\PL.csprojAssemblyReference.cache
+C:\Github\MyUniRepos\Year II\Three Tier Architecture\PL\obj\Debug\netstandard2.0\PL.AssemblyInfoInputs.cache
+C:\Github\MyUniRepos\Year II\Three Tier Architecture\PL\obj\Debug\netstandard2.0\PL.AssemblyInfo.cs
+C:\Github\MyUniRepos\Year II\Three Tier Architecture\PL\obj\Debug\netstandard2.0\PL.csproj.CoreCompileInputs.cache
+C:\Github\MyUniRepos\Year II\Three Tier Architecture\PL\obj\Debug\netstandard2.0\PL.csproj.CopyComplete
+C:\Github\MyUniRepos\Year II\Three Tier Architecture\PL\obj\Debug\netstandard2.0\PL.dll
+C:\Github\MyUniRepos\Year II\Three Tier Architecture\PL\obj\Debug\netstandard2.0\PL.pdb
+C:\Github\MyUniRepos\Year II\xUnit testing\PL\bin\Debug\netstandard2.0\PL.deps.json
+C:\Github\MyUniRepos\Year II\xUnit testing\PL\bin\Debug\netstandard2.0\PL.dll
+C:\Github\MyUniRepos\Year II\xUnit testing\PL\bin\Debug\netstandard2.0\PL.pdb
+C:\Github\MyUniRepos\Year II\xUnit testing\PL\bin\Debug\netstandard2.0\BLL.dll
+C:\Github\MyUniRepos\Year II\xUnit testing\PL\bin\Debug\netstandard2.0\DAL.dll
+C:\Github\MyUniRepos\Year II\xUnit testing\PL\bin\Debug\netstandard2.0\Providers.dll
+C:\Github\MyUniRepos\Year II\xUnit testing\PL\bin\Debug\netstandard2.0\BLL.pdb
+C:\Github\MyUniRepos\Year II\xUnit testing\PL\bin\Debug\netstandard2.0\Providers.pdb
+C:\Github\MyUniRepos\Year II\xUnit testing\PL\bin\Debug\netstandard2.0\DAL.pdb
+C:\Github\MyUniRepos\Year II\xUnit testing\PL\obj\Debug\netstandard2.0\PL.csprojAssemblyReference.cache
+C:\Github\MyUniRepos\Year II\xUnit testing\PL\obj\Debug\netstandard2.0\PL.AssemblyInfoInputs.cache
+C:\Github\MyUniRepos\Year II\xUnit testing\PL\obj\Debug\netstandard2.0\PL.AssemblyInfo.cs
+C:\Github\MyUniRepos\Year II\xUnit testing\PL\obj\Debug\netstandard2.0\PL.csproj.CoreCompileInputs.cache
+C:\Github\MyUniRepos\Year II\xUnit testing\PL\obj\Debug\netstandard2.0\PL.csproj.CopyComplete
+C:\Github\MyUniRepos\Year II\xUnit testing\PL\obj\Debug\netstandard2.0\PL.dll
+C:\Github\MyUniRepos\Year II\xUnit testing\PL\obj\Debug\netstandard2.0\PL.pdb

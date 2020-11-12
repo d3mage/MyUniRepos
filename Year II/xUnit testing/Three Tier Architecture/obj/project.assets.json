@@ -1,0 +1,158 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "BLL/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "DAL": "1.0.0",
+          "Providers": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BLL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BLL.dll": {}
+        }
+      },
+      "DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Providers": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DAL.dll": {}
+        }
+      },
+      "PL/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "BLL": "1.0.0",
+          "Providers": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PL.dll": {}
+        }
+      },
+      "Providers/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Providers.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Providers.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BLL/1.0.0": {
+      "type": "project",
+      "path": "../BLL/BLL.csproj",
+      "msbuildProject": "../BLL/BLL.csproj"
+    },
+    "DAL/1.0.0": {
+      "type": "project",
+      "path": "../DAL/DAL.csproj",
+      "msbuildProject": "../DAL/DAL.csproj"
+    },
+    "PL/1.0.0": {
+      "type": "project",
+      "path": "../PL/PL.csproj",
+      "msbuildProject": "../PL/PL.csproj"
+    },
+    "Providers/1.0.0": {
+      "type": "project",
+      "path": "../Providers/Providers.csproj",
+      "msbuildProject": "../Providers/Providers.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "BLL >= 1.0.0",
+      "DAL >= 1.0.0",
+      "PL >= 1.0.0",
+      "Providers >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\d3mag\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Github\\MyUniRepos\\Year II\\xUnit testing\\Three Tier Architecture\\Three Tier Architecture.csproj",
+      "projectName": "Three Tier Architecture",
+      "projectPath": "C:\\Github\\MyUniRepos\\Year II\\xUnit testing\\Three Tier Architecture\\Three Tier Architecture.csproj",
+      "packagesPath": "C:\\Users\\d3mag\\.nuget\\packages\\",
+      "outputPath": "C:\\Github\\MyUniRepos\\Year II\\xUnit testing\\Three Tier Architecture\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\d3mag\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "C:\\Github\\MyUniRepos\\Year II\\xUnit testing\\BLL\\BLL.csproj": {
+              "projectPath": "C:\\Github\\MyUniRepos\\Year II\\xUnit testing\\BLL\\BLL.csproj"
+            },
+            "C:\\Github\\MyUniRepos\\Year II\\xUnit testing\\DAL\\DAL.csproj": {
+              "projectPath": "C:\\Github\\MyUniRepos\\Year II\\xUnit testing\\DAL\\DAL.csproj"
+            },
+            "C:\\Github\\MyUniRepos\\Year II\\xUnit testing\\PL\\PL.csproj": {
+              "projectPath": "C:\\Github\\MyUniRepos\\Year II\\xUnit testing\\PL\\PL.csproj"
+            },
+            "C:\\Github\\MyUniRepos\\Year II\\xUnit testing\\Providers\\Providers.csproj": {
+              "projectPath": "C:\\Github\\MyUniRepos\\Year II\\xUnit testing\\Providers\\Providers.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

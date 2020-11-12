@@ -1,0 +1,48 @@
+C:\Github\MyUniRepos\Three Tier Architecture\DAL\obj\Debug\netstandard2.0\DAL.csprojAssemblyReference.cache
+C:\Github\MyUniRepos\Three Tier Architecture\DAL\obj\Debug\netstandard2.0\DAL.AssemblyInfoInputs.cache
+C:\Github\MyUniRepos\Three Tier Architecture\DAL\obj\Debug\netstandard2.0\DAL.AssemblyInfo.cs
+C:\Github\MyUniRepos\Three Tier Architecture\DAL\obj\Debug\netstandard2.0\DAL.csproj.CoreCompileInputs.cache
+C:\Github\MyUniRepos\Three Tier Architecture\DAL\bin\Debug\netstandard2.0\DAL.deps.json
+C:\Github\MyUniRepos\Three Tier Architecture\DAL\bin\Debug\netstandard2.0\DAL.dll
+C:\Github\MyUniRepos\Three Tier Architecture\DAL\bin\Debug\netstandard2.0\DAL.pdb
+C:\Github\MyUniRepos\Three Tier Architecture\DAL\bin\Debug\netstandard2.0\Providers.dll
+C:\Github\MyUniRepos\Three Tier Architecture\DAL\bin\Debug\netstandard2.0\Providers.pdb
+C:\Github\MyUniRepos\Three Tier Architecture\DAL\obj\Debug\netstandard2.0\DAL.csproj.CopyComplete
+C:\Github\MyUniRepos\Three Tier Architecture\DAL\obj\Debug\netstandard2.0\DAL.dll
+C:\Github\MyUniRepos\Three Tier Architecture\DAL\obj\Debug\netstandard2.0\DAL.pdb
+C:\Users\d3mag\Desktop\Three Tier Architecture\DAL\bin\Debug\netstandard2.0\DAL.deps.json
+C:\Users\d3mag\Desktop\Three Tier Architecture\DAL\bin\Debug\netstandard2.0\DAL.dll
+C:\Users\d3mag\Desktop\Three Tier Architecture\DAL\bin\Debug\netstandard2.0\DAL.pdb
+C:\Users\d3mag\Desktop\Three Tier Architecture\DAL\bin\Debug\netstandard2.0\Providers.dll
+C:\Users\d3mag\Desktop\Three Tier Architecture\DAL\bin\Debug\netstandard2.0\Providers.pdb
+C:\Users\d3mag\Desktop\Three Tier Architecture\DAL\obj\Debug\netstandard2.0\DAL.csprojAssemblyReference.cache
+C:\Users\d3mag\Desktop\Three Tier Architecture\DAL\obj\Debug\netstandard2.0\DAL.AssemblyInfoInputs.cache
+C:\Users\d3mag\Desktop\Three Tier Architecture\DAL\obj\Debug\netstandard2.0\DAL.AssemblyInfo.cs
+C:\Users\d3mag\Desktop\Three Tier Architecture\DAL\obj\Debug\netstandard2.0\DAL.csproj.CoreCompileInputs.cache
+C:\Users\d3mag\Desktop\Three Tier Architecture\DAL\obj\Debug\netstandard2.0\DAL.csproj.CopyComplete
+C:\Users\d3mag\Desktop\Three Tier Architecture\DAL\obj\Debug\netstandard2.0\DAL.dll
+C:\Users\d3mag\Desktop\Three Tier Architecture\DAL\obj\Debug\netstandard2.0\DAL.pdb
+C:\Github\MyUniRepos\Year II\Three Tier Architecture\DAL\bin\Debug\netstandard2.0\DAL.deps.json
+C:\Github\MyUniRepos\Year II\Three Tier Architecture\DAL\bin\Debug\netstandard2.0\DAL.dll
+C:\Github\MyUniRepos\Year II\Three Tier Architecture\DAL\bin\Debug\netstandard2.0\DAL.pdb
+C:\Github\MyUniRepos\Year II\Three Tier Architecture\DAL\bin\Debug\netstandard2.0\Providers.dll
+C:\Github\MyUniRepos\Year II\Three Tier Architecture\DAL\bin\Debug\netstandard2.0\Providers.pdb
+C:\Github\MyUniRepos\Year II\Three Tier Architecture\DAL\obj\Debug\netstandard2.0\DAL.csprojAssemblyReference.cache
+C:\Github\MyUniRepos\Year II\Three Tier Architecture\DAL\obj\Debug\netstandard2.0\DAL.AssemblyInfoInputs.cache
+C:\Github\MyUniRepos\Year II\Three Tier Architecture\DAL\obj\Debug\netstandard2.0\DAL.AssemblyInfo.cs
+C:\Github\MyUniRepos\Year II\Three Tier Architecture\DAL\obj\Debug\netstandard2.0\DAL.csproj.CoreCompileInputs.cache
+C:\Github\MyUniRepos\Year II\Three Tier Architecture\DAL\obj\Debug\netstandard2.0\DAL.csproj.CopyComplete
+C:\Github\MyUniRepos\Year II\Three Tier Architecture\DAL\obj\Debug\netstandard2.0\DAL.dll
+C:\Github\MyUniRepos\Year II\Three Tier Architecture\DAL\obj\Debug\netstandard2.0\DAL.pdb
+C:\Github\MyUniRepos\Year II\xUnit testing\DAL\bin\Debug\netstandard2.0\DAL.deps.json
+C:\Github\MyUniRepos\Year II\xUnit testing\DAL\bin\Debug\netstandard2.0\DAL.dll
+C:\Github\MyUniRepos\Year II\xUnit testing\DAL\bin\Debug\netstandard2.0\DAL.pdb
+C:\Github\MyUniRepos\Year II\xUnit testing\DAL\bin\Debug\netstandard2.0\Providers.dll
+C:\Github\MyUniRepos\Year II\xUnit testing\DAL\bin\Debug\netstandard2.0\Providers.pdb
+C:\Github\MyUniRepos\Year II\xUnit testing\DAL\obj\Debug\netstandard2.0\DAL.csprojAssemblyReference.cache
+C:\Github\MyUniRepos\Year II\xUnit testing\DAL\obj\Debug\netstandard2.0\DAL.AssemblyInfoInputs.cache
+C:\Github\MyUniRepos\Year II\xUnit testing\DAL\obj\Debug\netstandard2.0\DAL.AssemblyInfo.cs
+C:\Github\MyUniRepos\Year II\xUnit testing\DAL\obj\Debug\netstandard2.0\DAL.csproj.CoreCompileInputs.cache
+C:\Github\MyUniRepos\Year II\xUnit testing\DAL\obj\Debug\netstandard2.0\DAL.csproj.CopyComplete
+C:\Github\MyUniRepos\Year II\xUnit testing\DAL\obj\Debug\netstandard2.0\DAL.dll
+C:\Github\MyUniRepos\Year II\xUnit testing\DAL\obj\Debug\netstandard2.0\DAL.pdb

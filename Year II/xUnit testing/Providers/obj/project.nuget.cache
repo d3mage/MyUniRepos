@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "F+FCIyz/PMqJ81N4rQgNlKn0G2XtPkwXPxsA1jw/Ig0ditGK76DxrWZgBcjPg8guQPHyLJVKDxvq+RlY7op/og==",
+  "success": true,
+  "projectFilePath": "C:\\Github\\MyUniRepos\\Year II\\xUnit testing\\Providers\\Providers.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\d3mag\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\d3mag\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

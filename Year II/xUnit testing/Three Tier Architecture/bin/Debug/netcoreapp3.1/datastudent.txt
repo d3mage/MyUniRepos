@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<ArrayOfStudent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Student>
+    <_firstName>Bid</_firstName>
+    <_secondName>Gick</_secondName>
+    <_course>3</_course>
+    <_studentID>KD349812</_studentID>
+    <_sex>male</_sex>
+    <_GPA>81.2</_GPA>
+    <_creditBookID>239482</_creditBookID>
+  </Student>
+  <Student>
+    <_firstName>Mike</_firstName>
+    <_secondName>Wazowski</_secondName>
+    <_course>3</_course>
+    <_studentID>KB489321</_studentID>
+    <_sex>male</_sex>
+    <_GPA>83.2</_GPA>
+    <_creditBookID>892341</_creditBookID>
+  </Student>
+</ArrayOfStudent>
