@@ -4,7 +4,7 @@ using System.Text;
 
 namespace DAL
 {
-    interface IEntityFactory
+    public interface IEntityFactory
     {
         Entity CreateInstance(string name, string[] data);
     }

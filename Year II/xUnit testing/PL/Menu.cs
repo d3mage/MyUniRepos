@@ -55,15 +55,15 @@ namespace PL
                     string decision = AskUser("Select enity: student, doctor, mechanic", "[A-Za-z]+");
                     if (decision.Equals("student", StringComparison.OrdinalIgnoreCase))
                     {
-                        EntityService<Student>.Add(studentReadWrite, GetDataArray("student"));
+                        EntityService<Student>.Add(studentReadWrite, "student", GetDataArray("student"));
                     }
                     else if(decision.Equals("doctor", StringComparison.OrdinalIgnoreCase))
                     {
-                        EntityService<Doctor>.Add(doctorReadWrite, GetDataArray("doctor"));
+                        EntityService<Doctor>.Add(doctorReadWrite, "doctor", GetDataArray("doctor"));
                     }
                     else if(decision.Equals("mechanic", StringComparison.OrdinalIgnoreCase))
                     {
-                        EntityService<Mechanic>.Add(mechanicReadWrite, GetDataArray("mechanic"));
+                        EntityService<Mechanic>.Add(mechanicReadWrite, "mechanic", GetDataArray("mechanic"));
                     }
                 }
                 else if (func.Equals("remove", StringComparison.OrdinalIgnoreCase))
@@ -72,15 +72,15 @@ namespace PL
                     string decision = AskUser("Select enity: student, doctor, mechanic", "[A-Za-z]+");
                     if (decision.Equals("student", StringComparison.OrdinalIgnoreCase))
                     {
-                        EntityService<Student>.DeleteStudentByName(studentReadWrite, AskUser("Enter name", @"[A-Z]?\w+"), AskUser("Enter name", @"[A-Z]?\w+"));
+                        EntityService<Student>.Delete(studentReadWrite, AskUser("Enter name", @"[A-Z]?\w+"), AskUser("Enter name", @"[A-Z]?\w+"));
                     }
                     else if (decision.Equals("doctor", StringComparison.OrdinalIgnoreCase))
                     {
-                        EntityService<Doctor>.DeleteDoctorByName(doctorReadWrite, AskUser("Enter name", @"[A-Z]?\w+"), AskUser("Enter name", @"[A-Z]?\w+"));
+                        EntityService<Doctor>.Delete(doctorReadWrite, AskUser("Enter name", @"[A-Z]?\w+"), AskUser("Enter name", @"[A-Z]?\w+"));
                     }
                     else if (decision.Equals("mechanic", StringComparison.OrdinalIgnoreCase))
                     {
-                        EntityService<Mechanic>.DeleteMechanicByName(mechanicReadWrite, AskUser("Enter name", @"[A-Z]?\w+"), AskUser("Enter name", @"[A-Z]?\w+"));
+                        EntityService<Mechanic>.Delete(mechanicReadWrite, AskUser("Enter name", @"[A-Z]?\w+"), AskUser("Enter name", @"[A-Z]?\w+"));
                     }
                 }
                 else if (func.Equals("print", StringComparison.OrdinalIgnoreCase))
@@ -89,15 +89,15 @@ namespace PL
                     string decision = AskUser("Select enity: student, doctor, mechanic", "[A-Za-z]+");
                     if (decision.Equals("student", StringComparison.OrdinalIgnoreCase))
                     {
-                        EntityService<Student>.PrintStudent(studentReadWrite); 
+                        EntityService<Student>.Print(studentReadWrite); 
                     }
                     else if (decision.Equals("doctor", StringComparison.OrdinalIgnoreCase))
                     {
-                        EntityService<Doctor>.PrintDoctor(doctorReadWrite);
+                        EntityService<Doctor>.Print(doctorReadWrite);
                     }
                     else if (decision.Equals("mechanic", StringComparison.OrdinalIgnoreCase))
                     {
-                        EntityService<Mechanic>.PrintMechanic(mechanicReadWrite); 
+                        EntityService<Mechanic>.Print(mechanicReadWrite); 
                     }
 
                 }

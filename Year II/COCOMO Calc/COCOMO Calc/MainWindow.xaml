@@ -1,0 +1,40 @@
+﻿<Window x:Class="COCOMO_Calc.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:COCOMO_Calc"
+        mc:Ignorable="d"
+        Title="COCOMO Calculator" Height="200.4" Width="362.4">
+
+    <Window.Resources>
+        <ObjectDataProvider x:Key="timePeriodsFromEnum"
+                            MethodName="GetValues" 
+                            ObjectType="{x:Type sys:Enum}">
+            <ObjectDataProvider.MethodParameters>
+                <x:Type TypeName="local:ProjectType"/>
+            </ObjectDataProvider.MethodParameters>
+        </ObjectDataProvider>
+    </Window.Resources>
+
+    <Grid Background="Gray" Margin="0,0,0,-3.4">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="43*"/>
+            <ColumnDefinition Width="46*"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock x:Name="typeTextBlock" TextWrapping="Wrap" Background="White" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="150" FontWeight="Bold" Text="Виберіть тип проекту" FontSize="14" Height="19"/>
+        <ComboBox x:Name="typeComboBox" HorizontalAlignment="Left" Margin="10,31,0,0" VerticalAlignment="Top" Width="150" ItemsSource="{Binding Source={StaticResource timePeriodsFromEnum}}" Height="22"/>
+
+        <TextBlock x:Name="linesTextBlock" TextWrapping="Wrap" Background="White" HorizontalAlignment="Left" Margin="10,58,0,0" VerticalAlignment="Top" Width="150" Height="36" FontWeight="Bold" FontSize="14"><Run Text="Кількість рядків коду"/><Run Text=" (тисяч):"/><Run Text=" "/></TextBlock>
+        <TextBox x:Name="linesTextBox" HorizontalAlignment="Left" Height="23" Margin="10,99,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150"/>
+
+        <Button x:Name="calcButton" Content="Розрахувати" HorizontalAlignment="Left" Margin="10,127,0,0" VerticalAlignment="Top" Width="150" Height="19" Click="calcButton_Click"/>
+
+        <Label x:Name="workLabel" Content="Трудоємність: " HorizontalAlignment="Left" Margin="1,10,0,0" VerticalAlignment="Top" Width="161" FontWeight="Bold" Grid.Column="1" Height="26"/>
+        <Label x:Name="lengthLabel" Content="Тривалість:" HorizontalAlignment="Left" Margin="1,55,0,0" VerticalAlignment="Top" Width="171" FontWeight="Bold" Grid.Column="1" Height="26"/>
+        <Label x:Name="developersLabel" Content="Розробників:" HorizontalAlignment="Left" Margin="1,99,0,0" VerticalAlignment="Top" Width="171" FontWeight="Bold" Grid.Column="1" Height="26"/>
+
+
+    </Grid>
+</Window>
