@@ -6,17 +6,9 @@ public class Main {
 
     public static Circle[] initCircles(int size)
     {
-        Random random = new Random();
         Circle[] circles = new Circle[size];
 
-        int x, y, radius;
-
-        for (int i = 0; i < size; ++i) {
-            x = random.nextInt(20) - 10;
-            y = random.nextInt(20) - 10;
-            radius = random.nextInt(15);
-            circles[i] = new Circle(x, y, radius);
-        }
+        for (int i = 0; i < size; ++i) {circles[i] = new Circle();}
 
         return circles;
     }

@@ -5,7 +5,7 @@ public class HashTable
     private  Circle[] vector;
     private  int size;
 
-    private  Circle emptyCircle = new Circle();
+    private  Circle emptyCircle = new Circle(0);
 
     public HashTable(int size)
     {
