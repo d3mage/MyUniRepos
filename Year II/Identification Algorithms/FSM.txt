@@ -1,0 +1,3 @@
+place,holder.text
+also,regex,$9!
+a $DDD>
